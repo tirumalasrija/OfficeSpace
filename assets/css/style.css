@@ -227,7 +227,7 @@ address {
 * ==========================================================================
 */
 .navbar-nav > li > a {
-  padding: 10px 15px;
+  padding: 10px 6px;
   margin: 5px 5px;
   border-radius: 4px;
 }
@@ -314,6 +314,10 @@ address {
         position: absolute;
         font-size: 37px;
      } 
+.parallax-text{
+	margin-top:20% !important;
+	
+}
  }  
 
 .paragraph-text{
@@ -363,7 +367,7 @@ p.blog-text{
 @media (max-width: 768px){ 
     .office-logo{
       /* height: 100px; */
-      width: 250px;
+      width: 230px;
   }
 }
 
@@ -823,3 +827,24 @@ footer h3 {
     text-transform: capitalize;
     color: #fff;
 }
+@media (min-width: 768px) and (max-width: 1199px) and (orientation : portrait){
+  .navbar-nav > li > a {
+    padding: 10px 6px;
+    margin: 0px 11px 0px 0px;
+    border-radius: 4px;
+}
+.office-logo{
+	width:260px;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px) and (orientation : landscape){
+  
+.office-logo{
+	width:215px;
+}
+}
+
+
+
+
+
