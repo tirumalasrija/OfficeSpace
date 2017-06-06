@@ -844,6 +844,102 @@ footer h3 {
 }
 }
 
+.property{
+	padding:0px;
+}
+.text_property{
+	padding:20px 20px 10px 20px;
+	text-align:left;
+}
+.tab-address {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 20px 0;
+    padding: 10px 0;
+}
 
-
-
+.tab-content {
+    padding:1em 20px 20px 20px;
+    overflow: hidden;
+	text-align:left;
+}
+.tab-content p{
+	margin: 0 0 15px 0;
+}
+.tab-content h5{
+	margin: 0 0 15px 0;
+	font-weight:600;
+}
+.epl-tab-title {
+	 padding:0em 20px 20px 20px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    padding-bottom: 0.5em;
+	text-align:left;
+}
+.epl-tab-content ul.listing-info {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 25px;
+    background: #f2f2f2;
+    color: #949494;
+    background-color: #6BAAA8;
+    color: #ffffff;
+    border-radius: 5px;
+}
+h3.uk-panel-title {
+	margin:0em 20px 20px 20px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    border-bottom: 1px solid #e6e6e6;
+    overflow: visible;
+	text-align:left;
+}
+.map{
+	margin:0em 20px 20px 20px;
+}
+.uk-panel-box {
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+	padding: 25px;
+    background: #f2f2f2;
+    color: #949494;
+	text-align:left;
+}
+.uk-panel-box1{
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+	padding: 5px;
+    background: #f2f2f2;
+    color: #949494;
+	text-align:left;
+}
+.ang-author-box-ava img{
+    margin-right: 17px;
+    text-align:center;
+    max-width: 85;
+	float:left;
+	height:auto
+}
+.img_property img{
+	margin:0em 10px 20px 10px;
+}
+.property{
+	padding-top:50px;
+}
+.button {
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+	padding: 10px;
+    background: #f2f2f2;
+    color: #949494;
+	text-align:center;
+}
+.uk-row-second{
+	margin-top:50px;
+}
+.form-group {
+    padding: 10px;
+	margin-bottom:5px;
+}
