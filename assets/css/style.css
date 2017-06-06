@@ -212,7 +212,7 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#74B9B9 !important;
+  /* background:#74B9B9 !important; */
   color: white;
 }
 .navbar {
@@ -843,7 +843,6 @@ footer h3 {
 	width:215px;
 }
 }
-
 
 
 
