@@ -106,7 +106,7 @@ float: right;
     padding:10px;
 }
 .current span{
-    color:#55CBD2;
+    color:#d94c27;
 
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 a {
-    color: #55CBD2;
+    color: #fafafa;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -212,13 +212,16 @@ address {
 * ==========================================================================
 */
 .active{
-  /* background:#74B9B9 !important; */
+  background:none !important;
   color: white;
+  text-decoration:underline;
 }
 .navbar {
   font-weight: bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 0;
 }
 /*
@@ -512,7 +515,7 @@ footer h3 {
 }
 
 #social-icons .btn-group {
-    color: #55CBD2;
+    color: #d94c27;
     margin-right: 15px;
 }
 #social-icons .btn-group:hover {
@@ -840,7 +843,7 @@ footer h3 {
 @media (min-width: 768px) and (max-width: 1199px) and (orientation : landscape){
   
 .office-logo{
-	width:215px;
+	width:179px;
 }
 }
 
@@ -884,7 +887,7 @@ footer h3 {
     padding: 25px;
     background: #f2f2f2;
     color: #949494;
-    background-color: #6BAAA8;
+    background-color: #d94c27;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -942,4 +945,49 @@ h3.uk-panel-title {
 .form-group {
     padding: 10px;
 	margin-bottom:5px;
+}
+.navbar{
+	background-color:#d94c27;
+}
+.navbar-nav > li > a {
+	color:#fff;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+	font-size:16px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color:transparent !important;
+	
+}
+.price .tag{
+    display: inline-block;
+    color: #fff;
+    padding: 8px 35px;
+    font-size: 12px;
+	    background: #ed2a28;
+}
+.price .tag {
+    top: 15px;
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+}
+#navbar-section .container{
+	width:100%;
+	padding-left:30px;
+	padding-right:30px;
+}
+.gap{
+	padding:30px;
+}
+.button a{
+	color:#d94c27;
+	font-weight:500;
+}
+.button a:hover{
+	font-weight:bold;
+}
+.btn-primary{
+	background-color:#d94c27;
 }
