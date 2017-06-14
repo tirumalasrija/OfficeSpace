@@ -990,3 +990,17 @@ h3.uk-panel-title {
 .services-more{
 	padding:0px 10px 30px 10px;
 }
+.team-member h3{
+	text-align:center;
+}
+
+#contact-form p{
+	margin-left:10px;
+}
+.feedback-form{
+	float:left;
+}
+.text-center{
+	text-align:center;
+	font-size:28px;
+}
